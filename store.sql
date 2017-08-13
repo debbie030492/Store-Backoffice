@@ -21,7 +21,7 @@ INSERT INTO product (title, description, price, img_url, category, favorite)
 		"Le 1947 derives its name from the most prestigious vintage of Château Cheval Blanc and provides the perfect stage for the striking culinary art of chef Yannick Alléno.",
 		"350.00",
         "/images/le_1947.jpg",
-        6,
+        1,
         TRUE);
 
 INSERT INTO product (title, description, price, img_url, category, favorite)
@@ -30,7 +30,7 @@ INSERT INTO product (title, description, price, img_url, category, favorite)
 		"An intimate atmosphere, elegance down to the finest detail, the art of authentic mountain life honed to perfection: our gastronomic restaurant located at the heights of Megève offers diners a unique setting.",
 		"300.00",
         "/images/flocons_de_sel.jpg",
-        6,
+        1,
         FALSE);
 
 INSERT INTO product (title, description, price, img_url, category, favorite)
@@ -39,7 +39,7 @@ INSERT INTO product (title, description, price, img_url, category, favorite)
 		"Alain Ducasse tells a personal and radical story, continuing the work he began twenty-five years ago. Healthier and more natural, more respectful of the Planet, it delivers a free and nearly instinctive interpretation of Haute Cuisine, revealing the produces’ original flavour, from the noble to the humble, all exceptional.",
 		"300.00",
         "/images/plaza_athenee.jpg",
-        6,
+        1,
         FALSE);
 
 INSERT INTO product (title, description, price, img_url, category, favorite)
@@ -97,4 +97,8 @@ INSERT INTO product (title, description, price, img_url, category, favorite)
         FALSE);
 
 SELECT * FROM product;
-select * from category
+SELECT * FROM category;
+
+
+
+
